@@ -9,21 +9,8 @@
      * Dane wprowadzone przez użytkownika są sprawdzane, w przypadku wystąpienia błedu generowany jest wyjątek przez obiekt własnoręcznie skonstruowany klasy pochodnej od exception. Jest on przechwytywany w klasie AppCOntroller i syngalizowany jest oknem messagebox.
      * Podczas projektowania aplikacji zastosowano podział na moduły zgodny z dobrymi praktykami zawartymi w MVC
      * aplikacja została skompliwona za pomocą wywołania z katalogu gdzie znajuje się aplikacja następujących poleceń:
-     *javac -d bin src\exception\IncorectDataexception.java
-     * javac -d bin src\model\FlyWheel.java
-     * javac -d bin src\model\GObject.java
-     * javac -d bin src\model\History.java
-     * javac -d bin src\view\FlyWheelView.java
-     * javac -d bin src\view\SpeedPanel.java
-     * javac -d bin src\view\SpeedFrame.java
-     * javac -d bin src\main\MyPanel.java
-     * javac -d bin src\view\MyThread.java
-     * javac -d bin src\main\MainFrame.java
-     * javac -d bin src\controller\AppController.java
-     * javac -d bin src\main\Simulator.java
-     *
+     *javac -d bin src\exception\IncorectDataexception.java javac -d bin src\model\FlyWheel.java javac -d bin src\model\GObject.java javac -d bin src\model\History.java javac -d bin src\view\FlyWheelView.java javac -d bin src\view\SpeedPanel.java javac -d bin src\view\SpeedFrame.java javac -d bin src\main\MyPanel.java javac -d bin src\view\MyThread.java javac -d bin src\main\MainFrame.java javac -d bin src\controller\AppController.java javac -d bin src\main\Simulator.java
      * Plik jar został wygenerowany z następującego polecenia
      * jar -cfv Animation.jar -C bin .
-     *
      * Plik jar jest możliwy do uruchomienia z następującego polecenia
      * java -p Animation.jar -m Animation/main.Simulator
