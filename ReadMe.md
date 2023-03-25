@@ -1,4 +1,5 @@
 * Konrad Pempera
+     * LINK DO PREZENTACJI YOUTUBE https://youtu.be/rAUJuJ9-tbo
      * Celem projektu było oprogramowanie animacji prostej maszyny
      * Projekt składa się z dwóch widoków
      * 1) widok animacji
